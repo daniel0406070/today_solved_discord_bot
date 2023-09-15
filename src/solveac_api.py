@@ -5,15 +5,16 @@ import os
 
 
 conn = http.client.HTTPSConnection("solved.ac")
+user_db_path="/home/daniel/coding/Python/discord_strg/y.json"
 
 #리퀘스트 파트
 def open_json():
-    with open("y.json","r") as f:
+    with open(f"{user_db_path}","r") as f:
         f_j = json.load(f)
     return f_j
 
 def save_json(f_j):
-    with open("y.json","w") as f:
+    with open(f"{user_db_path}","w") as f:
         json.dump(f_j,f,indent=4)
 
 def get_user_info(user):

@@ -7,8 +7,8 @@ import time
 from pytz import timezone
 import json
 
-
-with open("Token.json","r") as f:
+token_path = "/home/daniel/coding/Python/discord_strg/Token.json"
+with open(f"{token_path}","r") as f:
     tmp = json.load(f)
 
 TOKEN = tmp["Token"]
