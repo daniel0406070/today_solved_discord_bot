@@ -1,4 +1,7 @@
-__pycache__
-.DS_Store
-venv
-discord_strg
+# sensitive DB info
+Token.json
+y.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
