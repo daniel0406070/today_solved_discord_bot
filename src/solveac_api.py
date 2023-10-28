@@ -5,7 +5,7 @@ import os
 
 
 conn = http.client.HTTPSConnection("solved.ac")
-user_db_path="/home/daniel/coding/Python/discord_strg/y.json"
+user_db_path="/home/daniel/code_space/today_solved_discord_bot/y.json"
 
 #리퀘스트 파트
 def open_json():
